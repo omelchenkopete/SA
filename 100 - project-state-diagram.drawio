@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T09:58:42.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="pPsH0FUkI8l6vFMfl5Hi" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T10:56:06.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="9goA6A7mKFa5TXDG0daG" version="24.2.2" type="github">
   <diagram name="Страница — 1" id="N7Tzw25lRo3z6AVVz8gm">
     <mxGraphModel dx="819" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="V5Sa6CXl622FIpi6RcLF-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;b&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Входящая&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/проверка правильности данных&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;container=0;recursiveResize=1;expand=1;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="V5Sa6CXl622FIpi6RcLF-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;/p&gt;&lt;b&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Новый заказ&lt;/div&gt;&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/проверка правильности данных&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;container=0;recursiveResize=1;expand=1;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="339" y="190" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-22" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="414" y="140" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-24" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="414" y="1060" width="30" height="30" as="geometry" />
+          <mxGeometry x="399" y="1060" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-28" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="V5Sa6CXl622FIpi6RcLF-22" target="V5Sa6CXl622FIpi6RcLF-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -20,13 +20,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Доставка&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;hr&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;entry/уведомление о дате доставки&lt;br&gt;do/\передача клиенту товара&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;exit/отметка об успешной доставке&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;container=0;recursiveResize=1;expand=1;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="339" y="750" width="180" height="120" as="geometry" />
+          <mxGeometry x="324" y="750" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Сборка&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;hr&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/сборка заказа&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;do/поиск свободного курьера&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;container=0;recursiveResize=1;expand=1;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="339" y="630" width="180" height="70" as="geometry" />
+          <mxGeometry x="324" y="620" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="V5Sa6CXl622FIpi6RcLF-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Производство&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;hr&gt;&lt;div style=&quot;&quot;&gt;entry/уведомление клиента о создании заказа&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/внесение данных о товаре и количестве&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/заполнение данных клиента&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/внесение данных доставки&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;container=0;recursiveResize=1;expand=1;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="294" y="320" width="270" height="100" as="geometry" />
+        <mxCell id="V5Sa6CXl622FIpi6RcLF-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Производство&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;hr&gt;&lt;div style=&quot;&quot;&gt;entry/уведомление клиента о создании заказа&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/проверка&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/заполнение данных клиента&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;do/внесение данных доставки&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;container=0;recursiveResize=1;expand=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="300" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="V5Sa6CXl622FIpi6RcLF-20" target="V5Sa6CXl622FIpi6RcLF-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -36,14 +36,18 @@
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-34" value="товаров нет в наличии" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="V5Sa6CXl622FIpi6RcLF-32" vertex="1" connectable="0">
           <mxGeometry x="0.0061" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-13" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Nckw2nQltUt8Q9vyjmXe-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V5Sa6CXl622FIpi6RcLF-35" target="V5Sa6CXl622FIpi6RcLF-30">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="429" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Печать макетов&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;hr&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;entry/уведомление клиента&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;container=0;recursiveResize=1;expand=1;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="339" y="500" width="180" height="70" as="geometry" />
+          <mxGeometry x="210" y="500" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-39" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="V5Sa6CXl622FIpi6RcLF-31" target="V5Sa6CXl622FIpi6RcLF-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -51,9 +55,9 @@
             <mxPoint x="190" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V5Sa6CXl622FIpi6RcLF-40" value="Заявка заполнена" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="V5Sa6CXl622FIpi6RcLF-39" vertex="1" connectable="0">
-          <mxGeometry x="-0.1143" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="Nckw2nQltUt8Q9vyjmXe-7" value="товар произведен" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V5Sa6CXl622FIpi6RcLF-39">
+          <mxGeometry x="-0.3604" y="1" relative="1" as="geometry">
+            <mxPoint x="15" y="25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-42" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="V5Sa6CXl622FIpi6RcLF-30" target="V5Sa6CXl622FIpi6RcLF-29" edge="1">
@@ -74,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Выполнен&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;hr&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;container=0;recursiveResize=1;expand=1;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="339" y="940" width="180" height="60" as="geometry" />
+          <mxGeometry x="324" y="940" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V5Sa6CXl622FIpi6RcLF-47" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="V5Sa6CXl622FIpi6RcLF-29" target="V5Sa6CXl622FIpi6RcLF-46" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -85,6 +89,28 @@
         <mxCell id="V5Sa6CXl622FIpi6RcLF-48" value="Заказ доставлен" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="V5Sa6CXl622FIpi6RcLF-47" vertex="1" connectable="0">
           <mxGeometry x="-0.2046" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nckw2nQltUt8Q9vyjmXe-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.607;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V5Sa6CXl622FIpi6RcLF-20" target="V5Sa6CXl622FIpi6RcLF-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="595" y="370" as="sourcePoint" />
+            <mxPoint x="510" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nckw2nQltUt8Q9vyjmXe-4" value="товары в наличии&lt;br&gt;и печать не нужна" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nckw2nQltUt8Q9vyjmXe-3">
+          <mxGeometry x="0.0061" relative="1" as="geometry">
+            <mxPoint x="13" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nckw2nQltUt8Q9vyjmXe-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="V5Sa6CXl622FIpi6RcLF-20" target="V5Sa6CXl622FIpi6RcLF-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="380" as="sourcePoint" />
+            <mxPoint x="280" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nckw2nQltUt8Q9vyjmXe-6" value="товары в наличи&lt;br&gt;и печать нужна" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nckw2nQltUt8Q9vyjmXe-5">
+          <mxGeometry x="0.0061" relative="1" as="geometry">
+            <mxPoint x="-14" y="29" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
